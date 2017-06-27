@@ -1,7 +1,7 @@
 
 
-function c(number) {
-  return ('$' + number + '.00');
+function convert(number) {
+  return (number.toLocaleString());
 }
 
-module.exports = c;
+module.exports = convert;
